@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "files": [
+    "backend_bg.wasm",
+    "backend.js",
+    "backend_bg.js",
+    "backend.d.ts"
+  ],
+  "module": "backend.js",
+  "types": "backend.d.ts",
+  "sideEffects": [
+    "./backend.js",
+    "./snippets/*"
+  ]
+}
